@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\harad\\Documents\\Unreal Projects\\InventoryPlugin\\InventoryProject\\Source\\InventoryProject\\InventoryProject.Build.cs",
+		"C:\\Users\\harad\\Documents\\Unreal Projects\\InventoryPlugin\\InventoryProject\\Plugins\\Inventory\\Source\\Inventory\\Inventory.Build.cs",
+		"C:\\Users\\harad\\Documents\\Unreal Projects\\InventoryPlugin\\InventoryProject\\Source\\InventoryProject.Target.cs",
+		"C:\\Users\\harad\\Documents\\Unreal Projects\\InventoryPlugin\\InventoryProject\\Source\\InventoryProjectEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.0"
+}

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\InventoryProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\InventoryProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory">
+      <UniqueIdentifier>{B32F4D9A-B249-32AC-B0D9-C4AF5957AD7B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source">
+      <UniqueIdentifier>{F0827E7D-8B98-3E76-8D0D-15D0B0A50A2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory">
+      <UniqueIdentifier>{52AC492C-31B6-329D-940C-C42451FF0503}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Inventory\Source\Inventory\Inventory.Build.cs">
+      <Filter>Plugins\Inventory\Source\Inventory</Filter>
+    </None>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private">
+      <UniqueIdentifier>{AF7388B2-F2EA-33F7-AFB9-8336C6EB5F8E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Inventory.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Interaction">
+      <UniqueIdentifier>{406B9300-64F9-38F0-8430-D98D088B7DFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Interaction\Inv_Highlightable.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Interaction</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Interaction\Inv_HightableStaticMesh.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Interaction</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement">
+      <UniqueIdentifier>{C23A84D4-9DD7-3387-84D4-740CDD410731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components">
+      <UniqueIdentifier>{EDDF8B5C-9D10-3300-BF86-9CDE3E2E09BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components\Inv_InventoryComponent.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray">
+      <UniqueIdentifier>{BF552996-FD3A-3B6E-8973-A7BEE7FFD3CC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray\Inv_FastArray.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items">
+      <UniqueIdentifier>{0C02FA2D-DEF1-3B4D-AA91-E29B3434AB88}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Inv_InventoryItem.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items\Components">
+      <UniqueIdentifier>{8E4AA415-C1C9-36DD-AF3D-4C74EC02B942}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Components\Inv_ItemComponent.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Components</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Player">
+      <UniqueIdentifier>{BF87602A-33C7-3236-9F08-77440888A420}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Player\Inv_PlayerController.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Types">
+      <UniqueIdentifier>{BB870B21-0BD1-3494-BEED-170231BAA695}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Types\Inv_GridTypes.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Types</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets">
+      <UniqueIdentifier>{29DB7C84-DE50-333B-A364-15B267E0F2C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD">
+      <UniqueIdentifier>{B57E391D-2DE5-3BF7-8D9D-2276C4B0E945}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD\Inv_HUDWidget.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory">
+      <UniqueIdentifier>{2A7EDF0E-D317-3123-9495-D62B6A1C1119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\GridSlots">
+      <UniqueIdentifier>{5FE65300-B519-3972-9E3C-677562366142}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\GridSlots\Inv_GridSlot.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\GridSlots</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\InventoryBase">
+      <UniqueIdentifier>{95596F00-3CAD-311A-A3A6-FD8DAB6E9F38}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\InventoryBase\Inv_InventoryBase.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\InventoryBase</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\Spatial">
+      <UniqueIdentifier>{F71E5410-78B3-3C93-A13B-C1AF06374015}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\Spatial\Inv_InventoryGrid.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\Spatial</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\Spatial\Inv_SpatialInventory.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory\Spatial</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Utils">
+      <UniqueIdentifier>{20317FD1-B556-3C48-9A2B-88B5CF151C27}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\Utils\Inv_WidgetUtils.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\Utils</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public">
+      <UniqueIdentifier>{18D72972-836F-32FE-AFA3-E1175457F503}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Inventory.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Interaction">
+      <UniqueIdentifier>{E6F2686C-CFB2-3632-B339-49D6BA79513C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_Highlightable.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Interaction</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Interaction\Inv_HightableStaticMesh.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Interaction</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement">
+      <UniqueIdentifier>{DE085EE9-280C-3185-AF06-33A22BDC8B9A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components">
+      <UniqueIdentifier>{94E325F5-2FA1-3183-ABD5-A517CA40BA9F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components\Inv_InventoryComponent.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Components</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray">
+      <UniqueIdentifier>{0C17B39A-3C54-325E-A2C6-C1F975F632EC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray\Inv_FastArray.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items">
+      <UniqueIdentifier>{C8640800-03F0-3589-BB15-B959540B9F90}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Inv_InventoryItem.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items\Components">
+      <UniqueIdentifier>{430EAD15-7537-3AEB-B915-AEB479186A18}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Components\Inv_ItemComponent.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Components</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Player">
+      <UniqueIdentifier>{04814899-3FFD-3067-A974-4A62053EBBA5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Player\Inv_PlayerController.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Types">
+      <UniqueIdentifier>{006CDB7D-4AB3-34EB-9160-F0CE702DD230}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Types\Inv_GridTypes.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Types</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets">
+      <UniqueIdentifier>{3CBDE5A1-0B94-3281-8287-56F1E18E5374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD">
+      <UniqueIdentifier>{054ECF48-BAB8-3D97-811A-F22B4826BFEF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD\Inv_HUDWidget.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory">
+      <UniqueIdentifier>{4772175D-E8C9-356B-99B6-8B1B9C1F9C23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\GridSlots">
+      <UniqueIdentifier>{AE7ECC33-5421-39B9-A52E-3C62D00D886E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\GridSlots\Inv_GridSlot.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\GridSlots</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\InventoryBase">
+      <UniqueIdentifier>{1F82F348-60E2-39C9-B909-9B3173A7E5B2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\InventoryBase\Inv_InventoryBase.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\InventoryBase</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\Spatial">
+      <UniqueIdentifier>{DF3217C4-BE9D-369A-B3B4-FA4416D06653}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\Spatial\Inv_InventoryGrid.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\Spatial</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\Spatial\Inv_SpatialInventory.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory\Spatial</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Utils">
+      <UniqueIdentifier>{980EF53F-EF02-3885-8936-D244240F70F3}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\Utils\Inv_WidgetUtils.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\Utils</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Inventory\Inventory.uplugin">
+      <Filter>Plugins\Inventory</Filter>
+    </None>
+    <Filter Include="Plugins\Inventory\Resources">
+      <UniqueIdentifier>{FF9AAFB5-C24C-3B72-A5A1-EF087DFF3028}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Inventory\Resources\Icon128.png">
+      <Filter>Plugins\Inventory\Resources</Filter>
+    </None>
+    <Filter Include="Source\InventoryProject">
+      <UniqueIdentifier>{6B0466FE-0C03-3C97-B404-1E89E2840F49}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\InventoryProject\InventoryProject.Build.cs">
+      <Filter>Source\InventoryProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProject.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\InventoryProject.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectCharacter.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\InventoryProjectCharacter.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectGameMode.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\InventoryProjectGameMode.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\InventoryProjectPlayerController.cpp">
+      <Filter>Source\InventoryProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\InventoryProjectPlayerController.h">
+      <Filter>Source\InventoryProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_Combat">
+      <UniqueIdentifier>{ABAED01E-F49A-308E-B5BF-CCE3D7A05EF6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_CheckCombo.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatActivatable.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatActivatable.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatActivationVolume.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatActivationVolume.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatAttacker.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatAttacker.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatCheckpointVolume.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatCheckpointVolume.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatDamageable.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatDamageable.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatDamageableBox.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatDamageableBox.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatDummy.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatDummy.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatLavaFloor.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatLavaFloor.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatLifeBar.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatLifeBar.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\InventoryProject\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_Combat\AI">
+      <UniqueIdentifier>{3E7CF8C3-C240-31E9-BB4E-469564D5274B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\InventoryProject\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_Platforming">
+      <UniqueIdentifier>{F45C8F7F-D53F-3203-ACD1-18BAF24FC48F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Platforming\AnimNotify_EndDash.cpp">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Platforming\AnimNotify_EndDash.h">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\InventoryProject\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_SideScrolling">
+      <UniqueIdentifier>{9575878B-36F1-3514-82F6-297969898AA7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingCPP.Build.cs">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingInteractable.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingInteractable.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingUI.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\SideScrollingUI.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{48ACF189-F71D-3AC2-915D-93436E9181A9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{B76FDEEA-CFAD-3946-A011-DC0433A498C4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\InventoryProject\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\InventoryProject\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Inventory.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Intermediate/Build/Win64/x64/InventoryProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Module.Inventory.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inventory.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_Highlightable.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_HightableStaticMesh.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryComponent.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_FastArray.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryStatics.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryItem.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemTags.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemComponent.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_FragmentsTag.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemFragment.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemManifest.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_PlayerController.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_GridTypes.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_HUDWidget.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InfoMessage.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_GridSlot.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryBase.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryGrid.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_SpatialInventory.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_WidgetUtils.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Default.rc2.res"
+/OUT:"C:/Users/harad/Documents/Unreal Projects/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/UnrealEditor-Inventory.lib"
