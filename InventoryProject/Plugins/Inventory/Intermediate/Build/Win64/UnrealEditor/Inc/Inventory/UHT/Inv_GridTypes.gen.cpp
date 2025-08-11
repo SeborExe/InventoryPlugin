@@ -167,7 +167,7 @@ UScriptStruct* Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult()
 // ********** End ScriptStruct FInv_SlotAvailabilityResult *****************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics
+struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EInv_ItemCategory_StaticEnum, TEXT("EInv_ItemCategory"), &Z_Registration_Info_UEnum_EInv_ItemCategory, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4149887105U) },
@@ -177,10 +177,10 @@ struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_Inventory
 		{ FInv_SlotAvailabilityResult::StaticStruct, Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult_Statics::NewStructOps, TEXT("Inv_SlotAvailabilityResult"), &Z_Registration_Info_UScriptStruct_FInv_SlotAvailabilityResult, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInv_SlotAvailabilityResult), 412004226U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_1430616200(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_1430616200(TEXT("/Script/Inventory"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::EnumInfo));
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h__Script_Inventory_Statics::EnumInfo));
 // ********** End Registration *********************************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

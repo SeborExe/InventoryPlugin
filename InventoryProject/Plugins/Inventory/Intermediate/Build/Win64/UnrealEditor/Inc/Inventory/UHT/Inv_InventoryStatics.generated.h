@@ -18,15 +18,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 class APlayerController;
 class UInv_InventoryComponent;
+class UInv_ItemComponent;
+enum class EInv_ItemCategory : uint8;
 
 // ********** Begin Class UInv_InventoryStatics ****************************************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execGetItemCategoryFromItemComp); \
 	DECLARE_FUNCTION(execGetInventoryComponent);
 
 
 INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryStatics_NoRegister();
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInv_InventoryStatics(); \
 	friend struct Z_Construct_UClass_UInv_InventoryStatics_Statics; \
@@ -37,7 +40,7 @@ public: \
 	DECLARE_SERIALIZER(UInv_InventoryStatics)
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInv_InventoryStatics(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -49,13 +52,13 @@ public: \
 	NO_API virtual ~UInv_InventoryStatics();
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_11_PROLOG
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_12_PROLOG
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_INCLASS_NO_PURE_DECLS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -65,6 +68,6 @@ class UInv_InventoryStatics;
 // ********** End Class UInv_InventoryStatics ******************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h
+#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

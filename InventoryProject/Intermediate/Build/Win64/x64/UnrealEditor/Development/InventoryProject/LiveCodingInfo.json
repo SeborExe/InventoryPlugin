@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.InventoryProject.1.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
 			"AnimNotify_CheckChargedAttack.gen.cpp.obj",
 			"AnimNotify_CheckCombo.gen.cpp.obj",
 			"AnimNotify_DoAttackTrace.gen.cpp.obj",
@@ -21,14 +22,13 @@
 			"CombatLavaFloor.gen.cpp.obj",
 			"CombatLifeBar.gen.cpp.obj",
 			"CombatPlayerController.gen.cpp.obj",
-			"CombatStateTreeUtility.gen.cpp.obj"
-		],
-		"Module.InventoryProject.2.cpp.obj": [
+			"CombatStateTreeUtility.gen.cpp.obj",
 			"EnvQueryContext_Player.gen.cpp.obj",
 			"InventoryProject.init.gen.cpp.obj",
 			"InventoryProjectCharacter.gen.cpp.obj",
 			"InventoryProjectGameMode.gen.cpp.obj",
 			"InventoryProjectPlayerController.gen.cpp.obj",
+			"MeshDeformationComponent.gen.cpp.obj",
 			"PlatformingCharacter.gen.cpp.obj",
 			"PlatformingGameMode.gen.cpp.obj",
 			"PlatformingPlayerController.gen.cpp.obj",
@@ -44,8 +44,9 @@
 			"SideScrollingPlayerController.gen.cpp.obj",
 			"SideScrollingSoftPlatform.gen.cpp.obj",
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
-			"SideScrollingUI.gen.cpp.obj",
-			"PerModuleInline.gen.cpp.obj",
+			"SideScrollingUI.gen.cpp.obj"
+		],
+		"Module.InventoryProject.2.cpp.obj": [
 			"InventoryProject.cpp.obj",
 			"InventoryProjectCharacter.cpp.obj",
 			"InventoryProjectGameMode.cpp.obj",
@@ -81,7 +82,13 @@
 			"SideScrollingMovingPlatform.cpp.obj",
 			"SideScrollingPickup.cpp.obj",
 			"SideScrollingSoftPlatform.cpp.obj",
-			"SideScrollingCameraManager.cpp.obj"
+			"SideScrollingCameraManager.cpp.obj",
+			"SideScrollingCharacter.cpp.obj",
+			"SideScrollingGameMode.cpp.obj",
+			"SideScrollingInteractable.cpp.obj",
+			"SideScrollingPlayerController.cpp.obj",
+			"SideScrollingUI.cpp.obj",
+			"MeshDeformationComponent.cpp.obj"
 		]
 	}
 }

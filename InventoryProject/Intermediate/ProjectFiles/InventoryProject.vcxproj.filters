@@ -75,10 +75,19 @@
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray\Inv_FastArray.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\InventoryManagement\FastArray</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Utils">
+      <UniqueIdentifier>{D7EB96C1-57A8-3D0D-A4A8-663E734DDAC8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Utils\Inv_InventoryStatics.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\InventoryManagement\Utils</Filter>
+    </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items">
       <UniqueIdentifier>{0C02FA2D-DEF1-3B4D-AA91-E29B3434AB88}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Inv_InventoryItem.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Inv_ItemTags.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\Items</Filter>
     </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items\Components">
@@ -87,11 +96,32 @@
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Components\Inv_ItemComponent.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Components</Filter>
     </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items\Fragments">
+      <UniqueIdentifier>{65B983B7-C9D3-366C-AD8B-FC3DA15527B1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Fragments\Inv_FragmentsTag.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Fragments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Fragments\Inv_ItemFragment.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Fragments</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\Items\Manifest">
+      <UniqueIdentifier>{9A2E5C39-CBCC-3B89-8B0B-00F4E5753348}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Items\Manifest\Inv_ItemManifest.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\Items\Manifest</Filter>
+    </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\Player">
       <UniqueIdentifier>{BF87602A-33C7-3236-9F08-77440888A420}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\Player\Inv_PlayerController.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Private\SlottedItems">
+      <UniqueIdentifier>{BE7F49C7-4773-3F9E-86E7-12AB4062A145}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\SlottedItems\Inv_SlottedItem.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\SlottedItems</Filter>
     </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\Types">
       <UniqueIdentifier>{BB870B21-0BD1-3494-BEED-170231BAA695}</UniqueIdentifier>
@@ -106,6 +136,9 @@
       <UniqueIdentifier>{B57E391D-2DE5-3BF7-8D9D-2276C4B0E945}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD\Inv_HUDWidget.cpp">
+      <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD\Inv_InfoMessage.cpp">
       <Filter>Plugins\Inventory\Source\Inventory\Private\WIdgets\HUD</Filter>
     </ClCompile>
     <Filter Include="Plugins\Inventory\Source\Inventory\Private\WIdgets\Inventory">
@@ -168,10 +201,19 @@
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray\Inv_FastArray.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\InventoryManagement\FastArray</Filter>
     </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Utils">
+      <UniqueIdentifier>{4027E8EB-AFD8-378A-853D-A7381786D29E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Utils\Inv_InventoryStatics.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\InventoryManagement\Utils</Filter>
+    </ClInclude>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items">
       <UniqueIdentifier>{C8640800-03F0-3589-BB15-B959540B9F90}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Inv_InventoryItem.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Inv_ItemTags.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\Items</Filter>
     </ClInclude>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items\Components">
@@ -180,11 +222,32 @@
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Components\Inv_ItemComponent.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Components</Filter>
     </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items\Fragments">
+      <UniqueIdentifier>{88CFB3B1-8589-3411-AF5D-D6257CDAD36E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Fragments\Inv_FragmentsTag.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Fragments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Fragments\Inv_ItemFragment.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Fragments</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\Items\Manifest">
+      <UniqueIdentifier>{A8438DEB-A9B8-3E10-8C5A-4455BEC20AF7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Items\Manifest\Inv_ItemManifest.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\Items\Manifest</Filter>
+    </ClInclude>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\Player">
       <UniqueIdentifier>{04814899-3FFD-3067-A974-4A62053EBBA5}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\Player\Inv_PlayerController.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\Player</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Inventory\Source\Inventory\Public\SlottedItems">
+      <UniqueIdentifier>{4B0AC6C0-83FE-3DD3-AAA9-47BB68A962CF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\SlottedItems\Inv_SlottedItem.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\SlottedItems</Filter>
     </ClInclude>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\Types">
       <UniqueIdentifier>{006CDB7D-4AB3-34EB-9160-F0CE702DD230}</UniqueIdentifier>
@@ -199,6 +262,9 @@
       <UniqueIdentifier>{054ECF48-BAB8-3D97-811A-F22B4826BFEF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD\Inv_HUDWidget.h">
+      <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD\Inv_InfoMessage.h">
       <Filter>Plugins\Inventory\Source\Inventory\Public\WIdgets\HUD</Filter>
     </ClInclude>
     <Filter Include="Plugins\Inventory\Source\Inventory\Public\WIdgets\Inventory">
@@ -269,6 +335,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\InventoryProject\InventoryProjectPlayerController.h">
       <Filter>Source\InventoryProject</Filter>
+    </ClInclude>
+    <Filter Include="Source\InventoryProject\Private">
+      <UniqueIdentifier>{AA9CB8CD-44D6-3412-86E1-05944A55DB83}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\InventoryProject\Private\MeshDeformationComponent.cpp">
+      <Filter>Source\InventoryProject\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\InventoryProject\Public">
+      <UniqueIdentifier>{D4BDE094-019B-365D-8B17-7A295432AB48}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\InventoryProject\Public\MeshDeformationComponent.h">
+      <Filter>Source\InventoryProject\Public</Filter>
     </ClInclude>
     <Filter Include="Source\InventoryProject\Variant_Combat">
       <UniqueIdentifier>{ABAED01E-F49A-308E-B5BF-CCE3D7A05EF6}</UniqueIdentifier>

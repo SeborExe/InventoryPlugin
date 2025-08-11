@@ -123,14 +123,14 @@ UAnimNotify_DoAttackTrace::~UAnimNotify_DoAttackTrace() {}
 // ********** End Class UAnimNotify_DoAttackTrace **************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics
+struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UAnimNotify_DoAttackTrace, UAnimNotify_DoAttackTrace::StaticClass, TEXT("UAnimNotify_DoAttackTrace"), &Z_Registration_Info_UClass_UAnimNotify_DoAttackTrace, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAnimNotify_DoAttackTrace), 238748838U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_4254489473(TEXT("/Script/InventoryProject"),
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_4254489473(TEXT("/Script/InventoryProject"),
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_Combat_AnimNotify_DoAttackTrace_h__Script_InventoryProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

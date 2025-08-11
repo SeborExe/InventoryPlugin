@@ -17,14 +17,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UInv_HUDWidget ***********************************************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnNoRoom);
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_CALLBACK_WRAPPERS
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_CALLBACK_WRAPPERS
 INVENTORY_API UClass* Z_Construct_UClass_UInv_HUDWidget_NoRegister();
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInv_HUDWidget(); \
 	friend struct Z_Construct_UClass_UInv_HUDWidget_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UInv_HUDWidget)
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInv_HUDWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -47,14 +47,14 @@ public: \
 	NO_API virtual ~UInv_HUDWidget();
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_11_PROLOG
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_11_PROLOG
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_CALLBACK_WRAPPERS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_CALLBACK_WRAPPERS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -64,6 +64,6 @@ class UInv_HUDWidget;
 // ********** End Class UInv_HUDWidget *************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h
+#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_HUD_Inv_HUDWidget_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FStateTreeGetPlayerInstanceData ***********************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h_18_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h_18_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FStateTreeGetPlayerInstanceData_Statics; \
 	INVENTORYPROJECT_API static class UScriptStruct* StaticStruct();
 
@@ -26,7 +26,7 @@ struct FStateTreeGetPlayerInstanceData;
 // ********** End ScriptStruct FStateTreeGetPlayerInstanceData *************************************
 
 // ********** Begin ScriptStruct FStateTreeGetPlayerTask *******************************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h_47_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h_47_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FStateTreeGetPlayerTask_Statics; \
 	INVENTORYPROJECT_API static class UScriptStruct* StaticStruct(); \
 	typedef FStateTreeTaskCommonBase Super;
@@ -36,6 +36,6 @@ struct FStateTreeGetPlayerTask;
 // ********** End ScriptStruct FStateTreeGetPlayerTask *********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h
+#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_AI_SideScrollingStateTreeUtility_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_hightablestaticmesh.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\x64\\inventoryprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inventory\\definitions.inventory.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\interaction\\inv_hightablestaticmesh.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\interaction\\inv_highlightable.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_highlightable.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_hightablestaticmesh.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

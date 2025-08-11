@@ -17,6 +17,8 @@ ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryComponent_NoRegister();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryStatics();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryStatics_NoRegister();
+INVENTORY_API UClass* Z_Construct_UClass_UInv_ItemComponent_NoRegister();
+INVENTORY_API UEnum* Z_Construct_UEnum_Inventory_EInv_ItemCategory();
 UPackage* Z_Construct_UPackage__Script_Inventory();
 // ********** End Cross Module References **********************************************************
 
@@ -73,12 +75,66 @@ DEFINE_FUNCTION(UInv_InventoryStatics::execGetInventoryComponent)
 }
 // ********** End Class UInv_InventoryStatics Function GetInventoryComponent ***********************
 
+// ********** Begin Class UInv_InventoryStatics Function GetItemCategoryFromItemComp ***************
+struct Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics
+{
+	struct Inv_InventoryStatics_eventGetItemCategoryFromItemComp_Parms
+	{
+		UInv_ItemComponent* ItemComponent;
+		EInv_ItemCategory ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "Public/InventoryManagement/Utils/Inv_InventoryStatics.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ItemComponent_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_ItemComponent;
+	static const UECodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
+	static const UECodeGen_Private::FEnumPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ItemComponent = { "ItemComponent", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Inv_InventoryStatics_eventGetItemCategoryFromItemComp_Parms, ItemComponent), Z_Construct_UClass_UInv_ItemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemComponent_MetaData), NewProp_ItemComponent_MetaData) };
+const UECodeGen_Private::FBytePropertyParams Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Inv_InventoryStatics_eventGetItemCategoryFromItemComp_Parms, ReturnValue), Z_Construct_UEnum_Inventory_EInv_ItemCategory, METADATA_PARAMS(0, nullptr) }; // 4149887105
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ItemComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ReturnValue_Underlying,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UInv_InventoryStatics, nullptr, "GetItemCategoryFromItemComp", Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::Inv_InventoryStatics_eventGetItemCategoryFromItemComp_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::Inv_InventoryStatics_eventGetItemCategoryFromItemComp_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInv_InventoryStatics::execGetItemCategoryFromItemComp)
+{
+	P_GET_OBJECT(UInv_ItemComponent,Z_Param_ItemComponent);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(EInv_ItemCategory*)Z_Param__Result=UInv_InventoryStatics::GetItemCategoryFromItemComp(Z_Param_ItemComponent);
+	P_NATIVE_END;
+}
+// ********** End Class UInv_InventoryStatics Function GetItemCategoryFromItemComp *****************
+
 // ********** Begin Class UInv_InventoryStatics ****************************************************
 void UInv_InventoryStatics::StaticRegisterNativesUInv_InventoryStatics()
 {
 	UClass* Class = UInv_InventoryStatics::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "GetInventoryComponent", &UInv_InventoryStatics::execGetInventoryComponent },
+		{ "GetItemCategoryFromItemComp", &UInv_InventoryStatics::execGetItemCategoryFromItemComp },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -122,6 +178,7 @@ struct Z_Construct_UClass_UInv_InventoryStatics_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UInv_InventoryStatics_GetInventoryComponent, "GetInventoryComponent" }, // 1565556824
+		{ &Z_Construct_UFunction_UInv_InventoryStatics_GetItemCategoryFromItemComp, "GetItemCategoryFromItemComp" }, // 1813628815
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -163,14 +220,14 @@ UInv_InventoryStatics::~UInv_InventoryStatics() {}
 // ********** End Class UInv_InventoryStatics ******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics
+struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_InventoryStatics, UInv_InventoryStatics::StaticClass, TEXT("UInv_InventoryStatics"), &Z_Registration_Info_UClass_UInv_InventoryStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryStatics), 374422275U) },
+		{ Z_Construct_UClass_UInv_InventoryStatics, UInv_InventoryStatics::StaticClass, TEXT("UInv_InventoryStatics"), &Z_Registration_Info_UClass_UInv_InventoryStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryStatics), 3826295863U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_4239624461(TEXT("/Script/Inventory"),
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_392161020(TEXT("/Script/Inventory"),
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_InventoryManagement_Utils_Inv_InventoryStatics_h__Script_Inventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

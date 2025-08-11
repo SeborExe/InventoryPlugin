@@ -102,15 +102,15 @@ UScriptStruct* Z_Construct_UScriptStruct_FInv_ItemManifest()
 // ********** End ScriptStruct FInv_ItemManifest ***************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics
+struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FInv_ItemManifest::StaticStruct, Z_Construct_UScriptStruct_FInv_ItemManifest_Statics::NewStructOps, TEXT("Inv_ItemManifest"), &Z_Registration_Info_UScriptStruct_FInv_ItemManifest, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FInv_ItemManifest), 3139942885U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_2877401123(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_2877401123(TEXT("/Script/Inventory"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Manifest_Inv_ItemManifest_h__Script_Inventory_Statics::ScriptStructInfo),
 	nullptr, 0);
 // ********** End Registration *********************************************************************
 

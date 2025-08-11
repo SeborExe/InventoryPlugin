@@ -616,14 +616,14 @@ ASideScrollingCharacter::~ASideScrollingCharacter() {}
 // ********** End Class ASideScrollingCharacter ****************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics
+struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ASideScrollingCharacter, ASideScrollingCharacter::StaticClass, TEXT("ASideScrollingCharacter"), &Z_Registration_Info_UClass_ASideScrollingCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASideScrollingCharacter), 2071247020U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_518824739(TEXT("/Script/InventoryProject"),
-	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_518824739(TEXT("/Script/InventoryProject"),
+	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Source_InventoryProject_Variant_SideScrolling_SideScrollingCharacter_h__Script_InventoryProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

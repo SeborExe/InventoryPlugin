@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UInv_GridSlot ************************************************************
 INVENTORY_API UClass* Z_Construct_UClass_UInv_GridSlot_NoRegister();
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_14_INCLASS_NO_PURE_DECLS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUInv_GridSlot(); \
 	friend struct Z_Construct_UClass_UInv_GridSlot_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UInv_GridSlot)
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_14_ENHANCED_CONSTRUCTORS \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_23_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UInv_GridSlot(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -42,12 +42,12 @@ public: \
 	NO_API virtual ~UInv_GridSlot();
 
 
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_11_PROLOG
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_14_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_20_PROLOG
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_14_INCLASS_NO_PURE_DECLS \
-	FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_14_ENHANCED_CONSTRUCTORS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_23_INCLASS_NO_PURE_DECLS \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -57,6 +57,18 @@ class UInv_GridSlot;
 // ********** End Class UInv_GridSlot **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h
+#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_GridSlots_Inv_GridSlot_h
+
+// ********** Begin Enum EInv_GridSlotState ********************************************************
+#define FOREACH_ENUM_EINV_GRIDSLOTSTATE(op) \
+	op(EInv_GridSlotState::Unoccupied) \
+	op(EInv_GridSlotState::Occupied) \
+	op(EInv_GridSlotState::Selected) \
+	op(EInv_GridSlotState::GrayedOut) 
+
+enum class EInv_GridSlotState : uint8;
+template<> struct TIsUEnumClass<EInv_GridSlotState> { enum { Value = true }; };
+template<> INVENTORY_API UEnum* StaticEnum<EInv_GridSlotState>();
+// ********** End Enum EInv_GridSlotState **********************************************************
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

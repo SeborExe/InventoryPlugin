@@ -1,0 +1,40 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_inventorystatics.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\x64\\inventoryprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inventory\\definitions.inventory.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\utils\\inv_inventorystatics.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\components\\inv_inventorycomponent.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\inventorymanagement\\fastarray\\inv_fastarray.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\items\\components\\inv_itemcomponent.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\items\\manifest\\inv_itemmanifest.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\items\\fragments\\inv_itemfragment.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_itemfragment.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\types\\inv_gridtypes.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_gridtypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\structutils\\instancedstruct.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\coreuobject\\public\\structutils\\structutils.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\coreuobject\\uht\\instancedstruct.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_itemmanifest.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_itemcomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\classes\\net\\serialization\\fastarrayserializer.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\misc\\guidreferences.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\pushmodel\\pushmodel.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\net\\core\\public\\net\\core\\netcoremodule.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\netcore\\uht\\fastarrayserializer.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_fastarray.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_inventorycomponent.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\source\\inventory\\public\\widgets\\utils\\inv_widgetutils.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_widgetutils.generated.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\plugins\\inventory\\intermediate\\build\\win64\\unrealeditor\\inc\\inventory\\uht\\inv_inventorystatics.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

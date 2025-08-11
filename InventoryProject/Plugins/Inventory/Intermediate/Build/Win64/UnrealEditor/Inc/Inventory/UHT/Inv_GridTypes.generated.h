@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin ScriptStruct FInv_SlotAvailability *********************************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h_19_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h_19_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInv_SlotAvailability_Statics; \
 	INVENTORY_API static class UScriptStruct* StaticStruct();
 
@@ -26,7 +26,7 @@ struct FInv_SlotAvailability;
 // ********** End ScriptStruct FInv_SlotAvailability ***********************************************
 
 // ********** Begin ScriptStruct FInv_SlotAvailabilityResult ***************************************
-#define FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h_33_GENERATED_BODY \
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h_33_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult_Statics; \
 	INVENTORY_API static class UScriptStruct* StaticStruct();
 
@@ -35,7 +35,7 @@ struct FInv_SlotAvailabilityResult;
 // ********** End ScriptStruct FInv_SlotAvailabilityResult *****************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h
+#define CURRENT_FILE_ID FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Types_Inv_GridTypes_h
 
 // ********** Begin Enum EInv_ItemCategory *********************************************************
 #define FOREACH_ENUM_EINV_ITEMCATEGORY(op) \

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\unrealeditor\\inc\\inventoryproject\\uht\\sidescrollingcameramanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\x64\\inventoryprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\inventoryproject\\definitions.inventoryproject.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\source\\inventoryproject\\variant_sidescrolling\\sidescrollingcameramanager.h",
+            "c:\\users\\harad\\documents\\unreal projects\\inventoryplugin\\inventoryproject\\intermediate\\build\\win64\\unrealeditor\\inc\\inventoryproject\\uht\\sidescrollingcameramanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
