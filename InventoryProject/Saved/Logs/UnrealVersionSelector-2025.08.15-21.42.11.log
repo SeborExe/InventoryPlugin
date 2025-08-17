@@ -1,0 +1,437 @@
+Log started at 08/15/2025 21:42:11 (2025-08-15T19:42:11Z)
+Resolved project argument C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/InventoryProject.uproject to C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\InventoryProject.uproject
+No config file at C:\ProgramData\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\harad\AppData\Local\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+No config file at C:\Users\harad\Documents\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Configuration will be read from:
+  C:\Users\harad\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Log file: C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Saved\Logs\UnrealVersionSelector-2025.08.15-21.42.11.log
+
+Setting temp directory to 'C:\Users\harad\AppData\Local\Temp\UnrealBuildTool\12c8af0c'
+    Registering build platform: UnrealBuildTool.AndroidPlatformFactory
+    Registering build platform: UnrealBuildTool.IOSPlatformFactory
+    Registering build platform: UnrealBuildTool.LinuxPlatformFactory
+    Registering build platform: UnrealBuildTool.MacPlatformFactory
+    Registering build platform: UnrealBuildTool.TVOSPlatformFactory
+    Registering build platform: UnrealBuildTool.WindowsPlatformFactory
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (1)
+Found Windows 10 SDK root at C:\Program Files (x86)\Windows Kits\10 (2)
+Found Windows 10 SDK version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.22621.0 at C:\Program Files (x86)\Windows Kits\10
+Found Windows 10 SDK version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Found Universal CRT version 10.0.26100.0 at C:\Program Files (x86)\Windows Kits\10
+Win64 Installed SDK(s): MinVersion_Sdk=10.0.19041.0, MaxVersion_Sdk=10.9.99999.0, CurrentVersion_Sdk=10.0.22621.0, Version_AutoSdk=10.0.22621.0, CurrentVersion_AutoSdk=
+        Registering build platform: Win64 - buildable: True
+    Registering build platform: UnrealBuildTool.VisionOSPlatformFactory
+Resolved project argument C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/InventoryProject.uproject to C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\InventoryProject.uproject
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\AppData\Roaming\Unreal Engine\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Saved\UnrealBuildTool\BuildConfiguration.xml
+Reading configuration file from cache (C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\Build\XmlConfigCache.bin): C:\Users\harad\AppData\Local\UnrealEngine\Intermediate\Build\UnrealBuildTool.Env.BuildConfiguration.xml
+Registering project generator UnrealBuildTool.AndroidProjectGenerator for Android
+Skipping project file generator registration for Android due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.IOSProjectGenerator for IOS
+Skipping project file generator registration for IOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for Linux
+Skipping project file generator registration for Linux due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.LinuxProjectGenerator for LinuxArm64
+Skipping project file generator registration for LinuxArm64 due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.MacProjectGenerator for Mac
+Skipping project file generator registration for Mac due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.TVOSProjectGenerator for TVOS
+Skipping project file generator registration for TVOS due to no valid BuildPlatform.
+Registering project generator UnrealBuildTool.WindowsProjectGenerator for Win64
+Registering project generator UnrealBuildTool.VisionOSProjectGenerator for VisionOS
+Skipping project file generator registration for VisionOS due to no valid BuildPlatform.
+
+---   SDK INFO START   ---
+---   SDK INFO END   ---
+
+
+Generating VisualStudio project files:
+Discovering modules, targets and source code for project...
+Found VisualStudio2022 installation: C:\Program Files\Microsoft Visual Studio\2022\Community (Product=Microsoft.VisualStudio.Product.Community, Version=17.14.36212.18)
+Found VisualStudioUnsupported installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools (Product=Microsoft.VisualStudio.Product.BuildTools, Version=16.11.36128.20)
+Found VisualStudioUnsupported installation: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community (Product=Microsoft.VisualStudio.Product.Community, Version=16.11.36227.6)
+Found Visual Studio toolchain: C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30133 (Family=14.29.30133, FamilyRank=1, Version=14.29.30159, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64, Error=True, Redist=C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Redist\MSVC\14.29.30133)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130 (Family=14.38.33130, FamilyRank=0, Version=14.38.33145, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.38.33130)
+Found Visual Studio toolchain: C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207 (Family=14.44.35207, FamilyRank=1, Version=14.44.35211, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64, Error=False, Redist=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Redist\MSVC\14.44.35112)
+Detected supported platforms: Win64
+Adding projects for all targets...
+Skipping C:\Program Files\Epic Games\UE_5.6\Engine\Intermediate\Build\BuildRules\UE5Rules.dll: File is installed
+Skipping C:\Program Files\Epic Games\UE_5.6\Engine\Intermediate\Build\BuildRules\UE5ProgramRules.dll: File is installed
+Generating target Editor for C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\ProjectFiles\UE5.vcxproj
+Generating target Game for C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\ProjectFiles\InventoryProject.vcxproj
+Generating target Editor for C:\Users\harad\Documents\Unreal Projects\InventoryPlugin\InventoryProject\Intermediate\ProjectFiles\InventoryProject.vcxproj
+Adding projects for all targets took 6.98s
+Adding projects for all game projects took 0.00s
+Adding shader source code...
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AITestSuite\AITestSuite.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Android\AndroidDeviceDetection\AndroidDeviceDetection.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Android\AndroidPlatformEditor\AndroidPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Android\AndroidTargetPlatformControls\AndroidTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Android\AndroidTargetPlatformSettings\AndroidTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Android\AndroidTargetPlatform\AndroidTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AnimationDataController\AnimationDataController.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AnimationWidgets\AnimationWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Apple\MetalShaderFormat\MetalShaderFormat.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AssetTools\AssetTools.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioFormatADPCM\AudioFormatADPCM.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioFormatBink\AudioFormatBink.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioFormatOgg\AudioFormatOgg.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioFormatOpus\AudioFormatOpus.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioFormatRad\AudioFormatRad.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AudioSettingsEditor\AudioSettingsEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AutomationController\AutomationController.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AutomationDriver\AutomationDriver.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\AutomationWindow\AutomationWindow.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\BSPUtils\BSPUtils.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\BlankModule\BlankModule.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CQTest\CQTest.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CSVUtils\CSVUtils.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CollectionManager\CollectionManager.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CollisionAnalyzer\CollisionAnalyzer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CookMetadata\CookMetadata.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CookOnTheFlyNetServer\CookOnTheFlyNetServer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CookedEditor\CookedEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\CrashDebugHelper\CrashDebugHelper.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Datasmith\DatasmithExporterUI\DatasmithExporterUI.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Datasmith\DatasmithExporter\DatasmithExporter.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Datasmith\DatasmithFacade\DatasmithFacade.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DerivedDataCache\DerivedDataCache.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DesktopPlatform\DesktopPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DesktopWidgets\DesktopWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DevHttp\DevHttp.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DeveloperToolSettings\DeveloperToolSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DeviceManager\DeviceManager.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DirectoryWatcher\DirectoryWatcher.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DistributedBuildInterface\DistributedBuildInterface.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\DrawPrimitiveDebugger\DrawPrimitiveDebugger.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\EditorAnalyticsSession\EditorAnalyticsSession.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ExternalImagePicker\ExternalImagePicker.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\FileUtilities\FileUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\FunctionalTesting\FunctionalTesting.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\GeometryProcessingInterfaces\GeometryProcessingInterfaces.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\GraphColor\GraphColor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\HierarchicalLODUtilities\HierarchicalLODUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Horde\Horde.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\HotReload\HotReload.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\IOSPlatformEditor\IOSPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\IOSTargetPlatformControls\IOSTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\IOSTargetPlatformSettings\IOSTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\IOSTargetPlatform\IOSTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\TVOSTargetPlatformControls\TVOSTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\TVOSTargetPlatformSettings\TVOSTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IOS\TVOSTargetPlatform\TVOSTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\IoStoreUtilities\IoStoreUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\LauncherServices\LauncherServices.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\LegacyProjectLauncher\LegacyProjectLauncher.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxArm64TargetPlatformControls\LinuxArm64TargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxArm64TargetPlatformSettings\LinuxArm64TargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxArm64TargetPlatform\LinuxArm64TargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxPlatformEditor\LinuxPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxTargetPlatformControls\LinuxTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxTargetPlatformSettings\LinuxTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Linux\LinuxTargetPlatform\LinuxTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\LocalizationService\LocalizationService.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Localization\Localization.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\LogVisualizer\LogVisualizer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\LowLevelTestsRunner\LowLevelTestsRunner.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Mac\MacPlatformEditor\MacPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Mac\MacTargetPlatformControls\MacTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Mac\MacTargetPlatformSettings\MacTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Mac\MacTargetPlatform\MacTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MassEntityTestSuite\MassEntityTestSuite.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MaterialBaking\MaterialBaking.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MaterialUtilities\MaterialUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Merge\Merge.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshBoneReduction\MeshBoneReduction.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshBuilderCommon\MeshBuilderCommon.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshBuilder\MeshBuilder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshDescriptionOperations\MeshDescriptionOperations.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshMergeUtilities\MeshMergeUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshReductionInterface\MeshReductionInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshSimplifier\QuadricMeshReduction.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshUtilitiesEngine\MeshUtilitiesEngine.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MeshUtilities\MeshUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\MessageLog\MessageLog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\NaniteBuilder\NaniteBuilder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\NaniteUtilities\NaniteUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\OutputLog\OutputLog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\PakFileUtilities\PakFileUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\PhysicsUtilities\PhysicsUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ProfileVisualizer\ProfileVisualizer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ProfilerClient\ProfilerClient.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ProfilerMessages\ProfilerMessages.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ProfilerService\ProfilerService.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Profiler\Profiler.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\S3Client\S3Client.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ScreenShotComparisonTools\ScreenShotComparisonTools.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ScreenShotComparison\ScreenShotComparison.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ScriptDisassembler\ScriptDisassembler.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SessionFrontend\SessionFrontend.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SettingsEditor\SettingsEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Settings\Settings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ShaderCompilerCommon\ShaderCompilerCommon.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ShaderFormatOpenGL\ShaderFormatOpenGL.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ShaderFormatVectorVM\ShaderFormatVectorVM.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ShaderPreprocessor\ShaderPreprocessor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SharedSettingsWidgets\SharedSettingsWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SkeletalMeshUtilitiesCommon\SkeletalMeshUtilitiesCommon.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SlackIntegrations\SlackIntegrations.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SlateFileDialogs\SlateFileDialogs.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SlateFontDialog\SlateFontDialog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SlateReflector\SlateReflector.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SourceCodeAccess\SourceCodeAccess.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SourceControlCheckInPrompt\SourceControlCheckInPrompt.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SourceControlViewport\SourceControlViewport.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\SourceControl\SourceControl.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\StandaloneRenderer\StandaloneRenderer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\StructUtilsTestSuite\StructUtilsTestSuite.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TargetDeviceServices\TargetDeviceServices.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TargetPlatform\TargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureBuildUtilities\TextureBuildUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureBuild\TextureBuild.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureCompressor\TextureCompressor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormatASTC\TextureFormatASTC.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormatDXT\TextureFormatDXT.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormatETC2\TextureFormatETC2.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormatIntelISPCTexComp\TextureFormatIntelISPCTexComp.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormatUncompressed\TextureFormatUncompressed.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TextureFormat\TextureFormat.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ToolMenus\ToolMenus.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\ToolWidgets\ToolWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceAnalysis\TraceAnalysis.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceInsightsCore\TraceInsightsCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceInsightsFrontend\TraceInsightsFrontend.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceInsights\TraceInsights.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceServices\TraceServices.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TraceTools\TraceTools.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TranslationEditor\TranslationEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TreeMap\TreeMap.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\TurnkeyIO\TurnkeyIO.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\UbaCoordinatorHorde\UbaCoordinatorHorde.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\UncontrolledChangelists\UncontrolledChangelists.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\UndoHistory\UndoHistory.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\UnsavedAssetsTracker\Source\UnsavedAssetsTracker.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Virtualization\Virtualization.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\VisualGraphUtils\VisualGraphUtils.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\VulkanShaderFormat\VulkanShaderFormat.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\WidgetRegistration\WidgetRegistration.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\LiveCodingServer\LiveCodingServer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\LiveCoding\LiveCoding.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\ShaderFormatD3D\ShaderFormatD3D.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\WindowsPlatformEditor\WindowsPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\WindowsTargetPlatfomControls\WindowsTargetPlatformControls.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\WindowsTargetPlatformSettings\WindowsTargetPlatformSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Windows\WindowsTargetPlatform\WindowsTargetPlatform.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Developer\Zen\Zen.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AIGraph\AIGraph.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ActionableMessage\ActionableMessage.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ActorPickerMode\ActorPickerMode.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AddContentDialog\AddContentDialog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AdvancedPreviewScene\AdvancedPreviewScene.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimGraph\AnimGraph.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationBlueprintEditor\AnimationBlueprintEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationBlueprintLibrary\AnimationBlueprintLibrary.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationEditMode\AnimationEditMode.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationEditorWidgets\AnimationEditorWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationEditor\AnimationEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationModifiers\AnimationModifiers.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AnimationSettings\AnimationSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AssetDefinition\AssetDefinition.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AssetTagsEditor\AssetTagsEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\AudioEditor\AudioEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\BehaviorTreeEditor\BehaviorTreeEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\BlueprintEditorLibrary\BlueprintEditorLibrary.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\BlueprintGraph\BlueprintGraph.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Blutility\Blutility.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\CSVtoSVG\CSVtoSVG.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ClassViewer\ClassViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ClothPainter\ClothPainter.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ClothingSystemEditorInterface\ClothingSystemEditorInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ClothingSystemEditor\ClothingSystemEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\CommonMenuExtensions\CommonMenuExtensions.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ComponentVisualizers\ComponentVisualizers.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ConfigEditor\ConfigEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ContentBrowserData\ContentBrowserData.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ContentBrowser\ContentBrowser.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\CurveAssetEditor\CurveAssetEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\CurveEditor\CurveEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\CurveTableEditor\CurveTableEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DataHierarchyEditor\DataHierarchyEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DataLayerEditor\DataLayerEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DataTableEditor\DataTableEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DerivedDataEditor\DerivedDataEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DerivedDataWidgets\DerivedDataWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DetailCustomizations\DetailCustomizations.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DeviceProfileEditor\DeviceProfileEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DeviceProfileServices\DeviceProfileServices.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\DistCurveEditor\DistCurveEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Documentation\Documentation.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorConfig\EditorConfig.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorFramework\EditorFramework.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorSettingsViewer\EditorSettingsViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorStyle\EditorStyle.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorSubsystem\EditorSubsystem.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EditorWidgets\EditorWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\EnvironmentLightingViewer\EnvironmentLightingViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Experimental\EditorInteractiveToolsFramework\EditorInteractiveToolsFramework.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\FoliageEdit\FoliageEdit.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\FontEditor\FontEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\GameProjectGeneration\GameProjectGeneration.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\GameplayDebugger\GameplayDebuggerEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\GameplayTasksEditor\GameplayTasksEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\GraphEditor\GraphEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\HardwareTargeting\HardwareTargeting.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\HierarchicalLODOutliner\HierarchicalLODOutliner.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\InputBindingEditor\InputBindingEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\InternationalizationSettings\InternationalizationSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\KismetCompiler\KismetCompiler.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\KismetWidgets\KismetWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Kismet\Kismet.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LandscapeEditorUtilities\LandscapeEditorUtilities.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LandscapeEditor\LandscapeEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Layers\Layers.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LevelEditor\LevelEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LevelInstanceEditor\LevelInstanceEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LocalizationCommandletExecution\LocalizationCommandletExecution.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\LocalizationDashboard\LocalizationDashboard.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MainFrame\MainFrame.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MassEntityDebugger\MassEntityDebugger.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MassEntityEditor\MassEntityEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MaterialEditor\MaterialEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MergeActors\MergeActors.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MeshPaint\MeshPaint.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MovieSceneCaptureDialog\MovieSceneCaptureDialog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\MovieSceneTools\MovieSceneTools.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\NNEEditor\NNEEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\NewLevelDialog\NewLevelDialog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\OverlayEditor\OverlayEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PIEPreviewDeviceProfileSelector\PIEPreviewDeviceProfileSelector.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PIEPreviewDeviceSpecification\PIEPreviewDeviceSpecification.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PListEditor\PListEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PackagesDialog\PackagesDialog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Persona\Persona.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PhysicsAssetEditor\PhysicsAssetEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PinnedCommandList\PinnedCommandList.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PixelInspector\PixelInspectorModule.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PlacementMode\PlacementMode.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PluginWarden\PluginWarden.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ProjectSettingsViewer\ProjectSettingsViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ProjectTargetPlatformEditor\ProjectTargetPlatformEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\PropertyEditor\PropertyEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\RenderResourceViewer\RenderResourceViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\RewindDebuggerInterface\RewindDebuggerInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SVGDistanceField\SVGDistanceField.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SceneDepthPickerMode\SceneDepthPickerMode.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SceneOutliner\SceneOutliner.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ScriptableEditorWidgets\ScriptableEditorWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SequenceRecorderSections\SequenceRecorderSections.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SequenceRecorder\SequenceRecorder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SequencerCore\SequencerCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SequencerWidgets\SequencerWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\Sequencer\Sequencer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SerializedRecorderInterface\SerializedRecorderInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SkeletalMeshEditor\SkeletalMeshEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SkeletonEditor\SkeletonEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SourceControlWindowExtender\SourceControlWindowExtender.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SourceControlWindows\SourceControlWindows.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SparseVolumeTexture\SparseVolumeTexture.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StaticMeshEditor\StaticMeshEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StatsViewer\StatsViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StatusBar\StatusBar.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StorageServerWidgets\StorageServerWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StringTableEditor\StringTableEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StructUtilsEditor\StructUtilsEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\StructViewer\StructViewer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SubobjectDataInterface\SubobjectDataInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SubobjectEditor\SubobjectEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\SwarmInterface\SwarmInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\TextureEditor\TextureEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ToolMenusEditor\ToolMenusEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\TurnkeySupport\TurnkeySupport.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UATHelper\UATHelper.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UMGEditor\UMGEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UndoHistoryEditor\UndoHistoryEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UniversalObjectLocatorEditor\UniversalObjectLocatorEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UnrealEdMessages\UnrealEdMessages.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\UnrealEd\UnrealEd.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\VREditor\VREditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ViewportInteraction\ViewportInteraction.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ViewportSnapping\ViewportSnapping.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\VirtualTexturingEditor\VirtualTexturingEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\VirtualizationEditor\VirtualizationEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\WorkspaceMenuStructure\WorkspaceMenuStructure.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\WorldBookmark\WorldBookmark.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\WorldBrowser\WorldBrowser.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\WorldPartitionEditor\WorldPartitionEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Editor\ZenEditor\ZenEditor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Programs\LiveLinkHub\Source\LiveLinkHubLauncher\LiveLinkHubLauncher.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Programs\Shared\EpicGames.Perforce.Native\DotNetPerforceLib.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AIModule\AIModule.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AVEncoder\AVEncoder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AVIWriter\AVIWriter.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AdpcmAudioDecoder\Module\AdpcmAudioDecoder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AdvancedWidgets\AdvancedWidgets.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Advertising\Advertising\Advertising.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Advertising\Android\AndroidAdvertising\AndroidAdvertising.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Advertising\IOS\IOSAdvertising\IOSAdvertising.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\AnalyticsET\AnalyticsET.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\AnalyticsHorde\AnalyticsHorde.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\AnalyticsLog\AnalyticsLog.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\AnalyticsSwrve\AnalyticsSwrve.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\AnalyticsVisualEditing\AnalyticsVisualEditing.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\Analytics\Analytics.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Analytics\TelemetryUtils\TelemetryUtils.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Android\AndroidLocalNotification\AndroidLocalNotification.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Android\AndroidRuntimeSettings\AndroidRuntimeSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Android\AudioMixerAndroid\AudioMixerAndroid.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AnimGraphRuntime\AnimGraphRuntime.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AnimationCore\AnimationCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AppFramework\AppFramework.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Apple\AudioMixerAudioUnit\AudioMixerAudioUnit.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Apple\AudioMixerCoreAudio\AudioMixerCoreAudio.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Apple\MetalRHI\MetalRHI.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ApplicationCore\ApplicationCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AssetRegistry\AssetRegistry.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioAnalyzer\AudioAnalyzer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioCaptureCore\AudioCaptureCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioCaptureImplementations\Android\AudioCaptureAndroid\AudioCaptureAndroid.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioCaptureImplementations\AudioCaptureRtAudio\AudioCaptureRtAudio.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioCaptureImplementations\IOS\AudioCaptureAudioUnit\AudioCaptureAudioUnit.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioCaptureImplementations\Windows\AudioCaputureWasapi\AudioCaptureWasapi.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioDeviceEnumeration\Windows\WindowsMMDeviceEnumeration\WindowsMMDeviceEnumeration.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioExtensions\AudioExtensions.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioLink\AudioLinkCore\AudioLinkCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioLink\AudioLinkEngine\AudioLinkEngine.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioLink\AudioMixerPlatformAudioLink\AudioMixerPlatformAudioLink.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioMixerCore\AudioMixerCore.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioMixer\AudioMixer.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioPlatformConfiguration\AudioPlatformConfiguration.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AudioPlatformSupport\Windows\WASAPI\AudioPlatformSupportWasapi.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AugmentedReality\AugmentedReality.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AutoRTFM\AutoRTFM.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AutomationMessages\AutomationMessages.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AutomationTest\AutomationTest.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\AutomationWorker\AutomationWorker.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\BinkAudioDecoder\Module\BinkAudioDecoder.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\BlueprintRuntime\BlueprintRuntime.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\BuildSettings\BuildSettings.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CEF3Utils\CEF3Utils.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CUDA\Source\CUDA.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Cbor\Cbor.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CinematicCamera\CinematicCamera.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ClientPilot\ClientPilot.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ClothingSystemRuntimeCommon\ClothingSystemRuntimeCommon.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ClothingSystemRuntimeInterface\ClothingSystemRuntimeInterface.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ClothingSystemRuntimeNv\ClothingSystemRuntimeNv.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\ColorManagement\ColorManagement.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CookOnTheFly\CookOnTheFly.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CoreOnline\CoreOnline.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CorePreciseFP\CorePreciseFP.build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\CoreUObject\CoreUObject.Build.cs
+AddProjectsForAllModules C:\Program Files\Epic Games\UE_5.6\Engine\Source\Runtime\Core\Core.Build.cs
