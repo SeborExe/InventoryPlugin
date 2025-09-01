@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_Combat/CombatActivatable.h"
+#include "CombatActivatable.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

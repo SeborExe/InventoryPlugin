@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_SideScrolling/SideScrollingInteractable.h"
+#include "SideScrollingInteractable.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

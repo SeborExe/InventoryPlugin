@@ -6,6 +6,7 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "WIdgets/Inventory/Spatial/Inv_InventoryGrid.h"
+#include "Types/Inv_GridTypes.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
@@ -19,6 +20,7 @@ INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryGrid_NoRegister();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryItem_NoRegister();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_SlottedItem_NoRegister();
 INVENTORY_API UEnum* Z_Construct_UEnum_Inventory_EInv_ItemCategory();
+INVENTORY_API UScriptStruct* Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult();
 UMG_API UClass* Z_Construct_UClass_UCanvasPanel_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserWidget();
 UPackage* Z_Construct_UPackage__Script_Inventory();
@@ -66,12 +68,58 @@ DEFINE_FUNCTION(UInv_InventoryGrid::execAddItem)
 }
 // ********** End Class UInv_InventoryGrid Function AddItem ****************************************
 
+// ********** Begin Class UInv_InventoryGrid Function AddStacks ************************************
+struct Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics
+{
+	struct Inv_InventoryGrid_eventAddStacks_Parms
+	{
+		FInv_SlotAvailabilityResult Result;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/WIdgets/Inventory/Spatial/Inv_InventoryGrid.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Result_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_Result;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::NewProp_Result = { "Result", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Inv_InventoryGrid_eventAddStacks_Parms, Result), Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Result_MetaData), NewProp_Result_MetaData) }; // 412004226
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::NewProp_Result,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UInv_InventoryGrid, nullptr, "AddStacks", Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::PropPointers), sizeof(Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::Inv_InventoryGrid_eventAddStacks_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00440401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::Inv_InventoryGrid_eventAddStacks_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UInv_InventoryGrid_AddStacks()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInv_InventoryGrid_AddStacks_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UInv_InventoryGrid::execAddStacks)
+{
+	P_GET_STRUCT_REF(FInv_SlotAvailabilityResult,Z_Param_Out_Result);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->AddStacks(Z_Param_Out_Result);
+	P_NATIVE_END;
+}
+// ********** End Class UInv_InventoryGrid Function AddStacks **************************************
+
 // ********** Begin Class UInv_InventoryGrid *******************************************************
 void UInv_InventoryGrid::StaticRegisterNativesUInv_InventoryGrid()
 {
 	UClass* Class = UInv_InventoryGrid::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
 		{ "AddItem", &UInv_InventoryGrid::execAddItem },
+		{ "AddStacks", &UInv_InventoryGrid::execAddStacks },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -167,6 +215,7 @@ struct Z_Construct_UClass_UInv_InventoryGrid_Statics
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_UInv_InventoryGrid_AddItem, "AddItem" }, // 4034979989
+		{ &Z_Construct_UFunction_UInv_InventoryGrid_AddStacks, "AddStacks" }, // 3415237499
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -240,10 +289,10 @@ UInv_InventoryGrid::~UInv_InventoryGrid() {}
 struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h__Script_Inventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_InventoryGrid, UInv_InventoryGrid::StaticClass, TEXT("UInv_InventoryGrid"), &Z_Registration_Info_UClass_UInv_InventoryGrid, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryGrid), 1453129713U) },
+		{ Z_Construct_UClass_UInv_InventoryGrid, UInv_InventoryGrid::StaticClass, TEXT("UInv_InventoryGrid"), &Z_Registration_Info_UClass_UInv_InventoryGrid, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryGrid), 356979473U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h__Script_Inventory_424158630(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h__Script_Inventory_601406908(TEXT("/Script/Inventory"),
 	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h__Script_Inventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h__Script_Inventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

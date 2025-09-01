@@ -17,6 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UInv_ItemComponent *******************************************************
+#define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_CALLBACK_WRAPPERS
 INVENTORY_API UClass* Z_Construct_UClass_UInv_ItemComponent_NoRegister();
 
 #define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_INCLASS_NO_PURE_DECLS \
@@ -50,6 +51,7 @@ public: \
 #define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_CALLBACK_WRAPPERS \
 	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_INCLASS_NO_PURE_DECLS \
 	FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h_13_ENHANCED_CONSTRUCTORS \
 private: \

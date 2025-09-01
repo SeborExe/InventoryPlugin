@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_Platforming/AnimNotify_EndDash.h"
+#include "AnimNotify_EndDash.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

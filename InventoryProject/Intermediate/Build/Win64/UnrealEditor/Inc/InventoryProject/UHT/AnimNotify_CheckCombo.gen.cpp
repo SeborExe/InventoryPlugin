@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_Combat/AnimNotify_CheckCombo.h"
+#include "AnimNotify_CheckCombo.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

@@ -17,9 +17,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 class UInv_InventoryItem;
+struct FInv_SlotAvailabilityResult;
 
 // ********** Begin Class UInv_InventoryGrid *******************************************************
 #define FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_WIdgets_Inventory_Spatial_Inv_InventoryGrid_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execAddStacks); \
 	DECLARE_FUNCTION(execAddItem);
 
 

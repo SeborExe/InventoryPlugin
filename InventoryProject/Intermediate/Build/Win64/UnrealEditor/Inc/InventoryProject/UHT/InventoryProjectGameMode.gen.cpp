@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/InventoryProjectGameMode.h"
+#include "InventoryProjectGameMode.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

@@ -24,6 +24,7 @@ void UInv_InventoryGrid::NativeOnInitialized()
 
 	InventoryComponent = UInv_InventoryStatics::GetInventoryComponent(GetOwningPlayer());
 	InventoryComponent->OnItemAdded.AddDynamic(this, &ThisClass::AddItem);
+	InventoryComponent->OnStackChanged.AddDynamic(this, &ThisClass::AddStacks);
 }
 
 FInv_SlotAvailabilityResult UInv_InventoryGrid::HasRoomForItem(const UInv_ItemComponent* ItemComponent)
@@ -44,12 +45,12 @@ FInv_SlotAvailabilityResult UInv_InventoryGrid::HasRoomForItem(const FInv_ItemMa
 	Result.bStackable = StackableFragment != nullptr;
 
 	const int32 MaxStackSize = StackableFragment ? StackableFragment->GetMaxStackSize() : 1;
-	int32 AmountToFill = StackableFragment ? StackableFragment->GetStackCount() : 1;
+		int32 AmountToFill = StackableFragment ? StackableFragment->GetStackCount() : 1;
 
 	TSet<int32> CheckedIndices;
 	for (const auto& GridSlot : GridSlots)
 	{
-		if (AmountToFill == 0) break;
+		if (AmountToFill <= 0) break;
 		if (IsIndexClaimed(CheckedIndices, GridSlot->GetIndex())) continue;
 
 		if (!IsInGridBounds(GridSlot->GetIndex(), GetItemDimensions(Manifest))) continue;
@@ -61,7 +62,7 @@ FInv_SlotAvailabilityResult UInv_InventoryGrid::HasRoomForItem(const FInv_ItemMa
 		}
 
 		const int32 AmountToFillInSlot = DeterminFillAmountForSlot(Result.bStackable, MaxStackSize, AmountToFill, GridSlot);
-		if (AmountToFill == 0) continue;
+		if (AmountToFillInSlot <= 0) continue;
 
 		CheckedIndices.Append(TentativeClaimed);
 
@@ -69,14 +70,14 @@ FInv_SlotAvailabilityResult UInv_InventoryGrid::HasRoomForItem(const FInv_ItemMa
 		Result.SlotAvailabilities.Emplace(
 			FInv_SlotAvailability{
 				HasValidItem(GridSlot) ? GridSlot->GetUpperLeftIndex() : GridSlot->GetIndex(),
-				Result.bStackable ? AmountToFill : 0,
-				HasValidItem(GridSlot)()
+				Result.bStackable ? AmountToFillInSlot : 0,
+				HasValidItem(GridSlot)
 			}
 		);
 
 		AmountToFill -= AmountToFillInSlot;
 		Result.Remainder = AmountToFill;
-		if (AmountToFill == 0) return Result;
+		if (AmountToFill <= 0) return Result;
 	}
 	
 	return Result;
@@ -99,7 +100,7 @@ bool UInv_InventoryGrid::HasRoomAtIndex(const UInv_GridSlot* GridSlot, const FIn
 	 	}
 	 });
 	
-	return false;
+	return bHasRoomAtIndex;
 }
 
 bool UInv_InventoryGrid::CheckSlotConstraints(const UInv_GridSlot* GridSlot, const UInv_GridSlot* SubGridSlot, const TSet<int32>& CheckedIndices,
@@ -157,19 +158,39 @@ int32 UInv_InventoryGrid::DeterminFillAmountForSlot(const bool bStackable, const
 	const UInv_GridSlot* GridSlot) const
 {
 	const int32 RoomInSlot = MaxStackSize - GetStackAmount(GridSlot);
-	return bStackable ? FMath::Min(RoomInSlot, RoomInSlot) : 1;
+	return bStackable ? FMath::Min(AmountToFill, RoomInSlot) : 1;
 }
 
 int32 UInv_InventoryGrid::GetStackAmount(const UInv_GridSlot* GridSlot) const
 {
-	int32 CurrentSlotStackAmount = GridSlot->GetStackCount();
-	if (const int32 UpperleftIndex = GridSlot->GetUpperLeftIndex(); UpperleftIndex != INDEX_NONE)
+	int32 CurrentSlotStackCount = GridSlot->GetStackCount();
+	if (const int32 UpperLeftIndex = GridSlot->GetUpperLeftIndex(); UpperLeftIndex != INDEX_NONE)
 	{
-		UInv_GridSlot* UpperLeftSlot = GridSlots[UpperleftIndex];
-		CurrentSlotStackAmount = UpperLeftSlot->GetStackCount();
+		UInv_GridSlot* UpperLeftGridSlot = GridSlots[UpperLeftIndex];
+		CurrentSlotStackCount = UpperLeftGridSlot->GetStackCount();
 	}
+	return CurrentSlotStackCount;
+}
 
-	return CurrentSlotStackAmount;
+void UInv_InventoryGrid::AddStacks(const FInv_SlotAvailabilityResult& Result)
+{
+	if (!MatchesCategory(Result.Item.Get())) return;
+
+	for (const auto& Availability : Result.SlotAvailabilities)
+	{
+		if (Availability.bItemAtIndex)
+		{
+			const auto& GridSlot = GridSlots[Availability.Index];
+			const auto& SlottedItem = SlottedItems.FindChecked(Availability.Index);
+			SlottedItem->UpdateStackCount(GridSlot->GetStackCount() + Availability.AmountToFill);
+			GridSlot->SetStackCount(GridSlot->GetStackCount() + Availability.AmountToFill);
+		}
+		else
+		{
+			AddItemAtIndex(Result.Item.Get(), Availability.Index, Result.bStackable, Availability.AmountToFill);
+			UpdateGridSlots(Result.Item.Get(), Availability.Index, Result.bStackable, Availability.AmountToFill);
+		}
+	}
 }
 
 void UInv_InventoryGrid::AddItem(UInv_InventoryItem* Item)

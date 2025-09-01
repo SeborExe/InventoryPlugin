@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_SideScrolling/SideScrollingCameraManager.h"
+#include "SideScrollingCameraManager.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

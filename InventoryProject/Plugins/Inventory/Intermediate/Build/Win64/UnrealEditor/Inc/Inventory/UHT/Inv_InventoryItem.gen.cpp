@@ -65,8 +65,12 @@ struct Z_Construct_UClass_UInv_InventoryItem_Statics
 		{ "Category", "Inv_InventoryItem" },
 		{ "ModuleRelativePath", "Public/Items/Inv_InventoryItem.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TotalStackCount_MetaData[] = {
+		{ "ModuleRelativePath", "Public/Items/Inv_InventoryItem.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_ItemManifest;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_TotalStackCount;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -75,8 +79,10 @@ struct Z_Construct_UClass_UInv_InventoryItem_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UInv_InventoryItem_Statics::NewProp_ItemManifest = { "ItemManifest", nullptr, (EPropertyFlags)0x0040000000020021, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInv_InventoryItem, ItemManifest), Z_Construct_UScriptStruct_FInstancedStruct, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemManifest_MetaData), NewProp_ItemManifest_MetaData) }; // 1627169465
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UInv_InventoryItem_Statics::NewProp_TotalStackCount = { "TotalStackCount", nullptr, (EPropertyFlags)0x0040000000000020, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UInv_InventoryItem, TotalStackCount), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TotalStackCount_MetaData), NewProp_TotalStackCount_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UInv_InventoryItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInv_InventoryItem_Statics::NewProp_ItemManifest,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UInv_InventoryItem_Statics::NewProp_TotalStackCount,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UInv_InventoryItem_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UInv_InventoryItem_Statics::DependentSingletons[])() = {
@@ -111,8 +117,10 @@ UClass* Z_Construct_UClass_UInv_InventoryItem()
 void UInv_InventoryItem::ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const
 {
 	static FName Name_ItemManifest(TEXT("ItemManifest"));
+	static FName Name_TotalStackCount(TEXT("TotalStackCount"));
 	const bool bIsValid = true
-		&& Name_ItemManifest == ClassReps[(int32)ENetFields_Private::ItemManifest].Property->GetFName();
+		&& Name_ItemManifest == ClassReps[(int32)ENetFields_Private::ItemManifest].Property->GetFName()
+		&& Name_TotalStackCount == ClassReps[(int32)ENetFields_Private::TotalStackCount].Property->GetFName();
 	checkf(bIsValid, TEXT("UHT Generated Rep Indices do not match runtime populated Rep Indices for properties in UInv_InventoryItem"));
 }
 #endif
@@ -125,10 +133,10 @@ UInv_InventoryItem::~UInv_InventoryItem() {}
 struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Inv_InventoryItem_h__Script_Inventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_InventoryItem, UInv_InventoryItem::StaticClass, TEXT("UInv_InventoryItem"), &Z_Registration_Info_UClass_UInv_InventoryItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryItem), 877298216U) },
+		{ Z_Construct_UClass_UInv_InventoryItem, UInv_InventoryItem::StaticClass, TEXT("UInv_InventoryItem"), &Z_Registration_Info_UClass_UInv_InventoryItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_InventoryItem), 2713491485U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Inv_InventoryItem_h__Script_Inventory_3583072115(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Inv_InventoryItem_h__Script_Inventory_2047514561(TEXT("/Script/Inventory"),
 	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Inv_InventoryItem_h__Script_Inventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Inv_InventoryItem_h__Script_Inventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

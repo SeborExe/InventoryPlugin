@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/InventoryProjectCharacter.h"
+#include "InventoryProjectCharacter.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

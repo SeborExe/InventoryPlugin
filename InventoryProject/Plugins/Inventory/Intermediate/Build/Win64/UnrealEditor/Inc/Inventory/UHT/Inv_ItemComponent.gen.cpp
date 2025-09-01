@@ -20,6 +20,35 @@ INVENTORY_API UScriptStruct* Z_Construct_UScriptStruct_FInv_ItemManifest();
 UPackage* Z_Construct_UPackage__Script_Inventory();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class UInv_ItemComponent Function OnPickedUp ***********************************
+static FName NAME_UInv_ItemComponent_OnPickedUp = FName(TEXT("OnPickedUp"));
+void UInv_ItemComponent::OnPickedUp()
+{
+	UFunction* Func = FindFunctionChecked(NAME_UInv_ItemComponent_OnPickedUp);
+	ProcessEvent(Func,NULL);
+}
+struct Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Inventory" },
+		{ "ModuleRelativePath", "Public/Items/Components/Inv_ItemComponent.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UInv_ItemComponent, nullptr, "OnPickedUp", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp_Statics::Function_MetaDataParams), Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+// ********** End Class UInv_ItemComponent Function OnPickedUp *************************************
+
 // ********** Begin Class UInv_ItemComponent *******************************************************
 void UInv_ItemComponent::StaticRegisterNativesUInv_ItemComponent()
 {
@@ -77,6 +106,10 @@ struct Z_Construct_UClass_UInv_ItemComponent_Statics
 	static const UECodeGen_Private::FStrPropertyParams NewProp_PickupMessage;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UInv_ItemComponent_OnPickedUp, "OnPickedUp" }, // 3736317109
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UInv_ItemComponent>::IsAbstract,
 	};
@@ -99,11 +132,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_UInv_ItemComponent_Stat
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_UInv_ItemComponent_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_UInv_ItemComponent_Statics::PropPointers),
 	0,
 	0x00B000A4u,
@@ -134,10 +167,10 @@ UInv_ItemComponent::~UInv_ItemComponent() {}
 struct Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h__Script_Inventory_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UInv_ItemComponent, UInv_ItemComponent::StaticClass, TEXT("UInv_ItemComponent"), &Z_Registration_Info_UClass_UInv_ItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_ItemComponent), 919436049U) },
+		{ Z_Construct_UClass_UInv_ItemComponent, UInv_ItemComponent::StaticClass, TEXT("UInv_ItemComponent"), &Z_Registration_Info_UClass_UInv_ItemComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UInv_ItemComponent), 187268809U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h__Script_Inventory_3730102937(TEXT("/Script/Inventory"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h__Script_Inventory_2619773158(TEXT("/Script/Inventory"),
 	Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h__Script_Inventory_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_harad_Documents_Unreal_Projects_InventoryPlugin_InventoryProject_Plugins_Inventory_Source_Inventory_Public_Items_Components_Inv_ItemComponent_h__Script_Inventory_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_Combat/AnimNotify_DoAttackTrace.h"
+#include "AnimNotify_DoAttackTrace.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

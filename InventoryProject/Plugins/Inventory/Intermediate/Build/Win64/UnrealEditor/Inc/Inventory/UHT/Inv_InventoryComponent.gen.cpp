@@ -7,6 +7,7 @@
 #include "UObject/GeneratedCppIncludes.h"
 #include "InventoryManagement/Components/Inv_InventoryComponent.h"
 #include "InventoryManagement/FastArray/Inv_FastArray.h"
+#include "Types/Inv_GridTypes.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
@@ -22,7 +23,9 @@ INVENTORY_API UClass* Z_Construct_UClass_UInv_InventoryItem_NoRegister();
 INVENTORY_API UClass* Z_Construct_UClass_UInv_ItemComponent_NoRegister();
 INVENTORY_API UFunction* Z_Construct_UDelegateFunction_Inventory_InventoryItemChanged__DelegateSignature();
 INVENTORY_API UFunction* Z_Construct_UDelegateFunction_Inventory_NoRoomInInventory__DelegateSignature();
+INVENTORY_API UFunction* Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature();
 INVENTORY_API UScriptStruct* Z_Construct_UScriptStruct_FInv_InventoryFastArray();
+INVENTORY_API UScriptStruct* Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult();
 UPackage* Z_Construct_UPackage__Script_Inventory();
 // ********** End Cross Module References **********************************************************
 
@@ -95,6 +98,53 @@ void FNoRoomInInventory_DelegateWrapper(const FMulticastScriptDelegate& NoRoomIn
 	NoRoomInInventory.ProcessMulticastDelegate<UObject>(NULL);
 }
 // ********** End Delegate FNoRoomInInventory ******************************************************
+
+// ********** Begin Delegate FStackChanged *********************************************************
+struct Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics
+{
+	struct _Script_Inventory_eventStackChanged_Parms
+	{
+		FInv_SlotAvailabilityResult Result;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/InventoryManagement/Components/Inv_InventoryComponent.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Result_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStructPropertyParams NewProp_Result;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::NewProp_Result = { "Result", nullptr, (EPropertyFlags)0x0010000008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_Inventory_eventStackChanged_Parms, Result), Z_Construct_UScriptStruct_FInv_SlotAvailabilityResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Result_MetaData), NewProp_Result_MetaData) }; // 412004226
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::NewProp_Result,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_Inventory, nullptr, "StackChanged__DelegateSignature", Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::_Script_Inventory_eventStackChanged_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00530000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::Function_MetaDataParams)},  };
+static_assert(sizeof(Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::_Script_Inventory_eventStackChanged_Parms) < MAX_uint16);
+UFunction* Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_Inventory_StackChanged__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FStackChanged_DelegateWrapper(const FMulticastScriptDelegate& StackChanged, FInv_SlotAvailabilityResult const& Result)
+{
+	struct _Script_Inventory_eventStackChanged_Parms
+	{
+		FInv_SlotAvailabilityResult Result;
+	};
+	_Script_Inventory_eventStackChanged_Parms Parms;
+	Parms.Result=Result;
+	StackChanged.ProcessMulticastDelegate<UObject>(&Parms);
+}
+// ********** End Delegate FStackChanged ***********************************************************
 
 // ********** Begin Class UInv_InventoryComponent Function Server_AddNewItem ***********************
 struct Inv_InventoryComponent_eventServer_AddNewItem_Parms

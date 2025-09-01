@@ -33,7 +33,8 @@ public: \
 	{ \
 		NETFIELD_REP_START=(uint16)((int32)Super::ENetFields_Private::NETFIELD_REP_END + (int32)1), \
 		ItemManifest=NETFIELD_REP_START, \
-		NETFIELD_REP_END=ItemManifest	}; \
+		TotalStackCount, \
+		NETFIELD_REP_END=TotalStackCount	}; \
 	DECLARE_VALIDATE_GENERATED_REP_ENUMS(NO_API) \
 private: \
 	REPLICATED_BASE_CLASS(UInv_InventoryItem) \

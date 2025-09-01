@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.InventoryProject.1.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
 			"AnimNotify_CheckChargedAttack.gen.cpp.obj",
 			"AnimNotify_CheckCombo.gen.cpp.obj",
 			"AnimNotify_DoAttackTrace.gen.cpp.obj",
@@ -22,7 +21,9 @@
 			"CombatLavaFloor.gen.cpp.obj",
 			"CombatLifeBar.gen.cpp.obj",
 			"CombatPlayerController.gen.cpp.obj",
-			"CombatStateTreeUtility.gen.cpp.obj",
+			"CombatStateTreeUtility.gen.cpp.obj"
+		],
+		"Module.InventoryProject.2.cpp.obj": [
 			"EnvQueryContext_Player.gen.cpp.obj",
 			"InventoryProject.init.gen.cpp.obj",
 			"InventoryProjectCharacter.gen.cpp.obj",
@@ -44,13 +45,13 @@
 			"SideScrollingPlayerController.gen.cpp.obj",
 			"SideScrollingSoftPlatform.gen.cpp.obj",
 			"SideScrollingStateTreeUtility.gen.cpp.obj",
-			"SideScrollingUI.gen.cpp.obj"
-		],
-		"Module.InventoryProject.2.cpp.obj": [
+			"SideScrollingUI.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
 			"InventoryProject.cpp.obj",
 			"InventoryProjectCharacter.cpp.obj",
 			"InventoryProjectGameMode.cpp.obj",
 			"InventoryProjectPlayerController.cpp.obj",
+			"MeshDeformationComponent.cpp.obj",
 			"CombatAIController.cpp.obj",
 			"CombatEnemy.cpp.obj",
 			"CombatEnemySpawner.cpp.obj",
@@ -62,7 +63,9 @@
 			"CombatActivatable.cpp.obj",
 			"CombatActivationVolume.cpp.obj",
 			"CombatAttacker.cpp.obj",
-			"CombatCharacter.cpp.obj",
+			"CombatCharacter.cpp.obj"
+		],
+		"Module.InventoryProject.3.cpp.obj": [
 			"CombatCheckpointVolume.cpp.obj",
 			"CombatDamageable.cpp.obj",
 			"CombatDamageableBox.cpp.obj",
@@ -87,8 +90,7 @@
 			"SideScrollingGameMode.cpp.obj",
 			"SideScrollingInteractable.cpp.obj",
 			"SideScrollingPlayerController.cpp.obj",
-			"SideScrollingUI.cpp.obj",
-			"MeshDeformationComponent.cpp.obj"
+			"SideScrollingUI.cpp.obj"
 		]
 	}
 }

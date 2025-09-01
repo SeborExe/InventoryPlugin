@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_SideScrolling/SideScrollingGameMode.h"
+#include "SideScrollingGameMode.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 

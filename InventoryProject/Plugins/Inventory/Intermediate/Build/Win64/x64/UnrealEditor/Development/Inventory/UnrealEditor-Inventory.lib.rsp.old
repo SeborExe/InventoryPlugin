@@ -8,6 +8,11 @@
 /NODEFAULTLIB
 "C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Intermediate/Build/Win64/x64/InventoryProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
 "C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Module.Inventory.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryComponent.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_FastArray.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryItem.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemComponent.cpp.obj"
+"C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemFragment.cpp.obj"
 "C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_ItemManifest.cpp.obj"
 "C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Inv_InventoryGrid.cpp.obj"
 "C:/Users/harad/Documents/Unreal Projects/InventoryPlugin/InventoryProject/Plugins/Inventory/Intermediate/Build/Win64/x64/UnrealEditor/Development/Inventory/Default.rc2.res"

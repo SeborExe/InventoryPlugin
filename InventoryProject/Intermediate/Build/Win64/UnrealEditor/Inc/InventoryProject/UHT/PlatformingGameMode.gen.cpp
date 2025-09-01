@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "InventoryProject/Variant_Platforming/PlatformingGameMode.h"
+#include "PlatformingGameMode.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
